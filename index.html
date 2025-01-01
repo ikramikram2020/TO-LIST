@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To List</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="#" class="logo">
+                <img src="images/image.png" alt="My Tasker Logo">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#tools">Tools</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    
+    <!-- Landing Section -->
+    <section id="home" class="landing">
+        <div class="landing-content">
+            <h1>Welcome to To List!</h1>
+            <p>Organize your tasks efficiently and stay productive with ease. Start now and make your day more organized!</p>
+            <a href="#tools" class="cta-button">Get Started</a>
+        </div>
+        <div class="landing-image">
+            <img src="images/landing.png" alt="Task Management Image">
+        </div>
+    </section>
+    
+    <!-- Tools Section -->
+    <section id="tools" class="tools-section">
+        <div class="tool-container">
+            <div class="tool-option">
+                <img src="images/pomodoro (2).png" alt="Pomodoro Timer">
+                <h3>Pomodoro Timer</h3>
+                <p>Work in focused intervals and take short breaks to stay productive.</p>
+                <a href="" class="cta-button">Try Now</a>
+            </div>
+            <div class="tool-option">
+                <img src="images/todolist.png" alt="To-Do List">
+                <h3>To-Do List</h3>
+                <p>Keep track of your tasks and stay on top of your daily goals.</p>
+                <a href="to-do-list/index.html" class="cta-button">Try Now</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>About Us</h2>
+                <p>TO List is your go-to app for managing your daily tasks. Our intuitive To-Do List and Pomodoro Timer help you stay focused and productive.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 To List . All rights reserved.</p>
+    </footer>
+</body>
+</html>
